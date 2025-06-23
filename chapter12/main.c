@@ -2,5 +2,7 @@
 
 int main(void)
 {
-    char num[5] = "hello";
+    int arr[3] = {1,2,3};
+    size_t arrsize = sizeof(arr);
+    printf("%ld", arrsize);
 }
