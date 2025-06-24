@@ -3,9 +3,9 @@
 int main(void)
 {
   int x = 123;
-  printf("%d", x);
+  //printf("%d", x);
   int *p = &x;
-  printf("%ls",p);
+  printf("%d",*p);
   *p = 321;
-  printf("%d",x);
+  //printf("%d",x);
 }
