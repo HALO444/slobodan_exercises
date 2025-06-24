@@ -2,7 +2,10 @@
 
 int main(void)
 {
-    int arr[3] = {1,2,3};
-    size_t arrsize = sizeof(arr);
-    printf("%ld", arrsize);
+  int x = 123;
+  printf("%d", x);
+  int *p = &x;
+  printf("%ls",p);
+  *p = 321;
+  printf("%d",x);
 }
