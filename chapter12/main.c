@@ -4,6 +4,6 @@ int main(int argc, char *argv[])
 {
     for(int i = 0;i < argc;i++)
     {
-        printf("%d\n", argc);
+        printf("%s\n", argv[0]);
     }
 }
