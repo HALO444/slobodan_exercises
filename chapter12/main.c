@@ -1,11 +1,9 @@
 #include <stdio.h>
 
-int main(void)
+int main(int argc, char *argv[])
 {
-    int num[] = {1,2,3,4};  
-    
-    int* p ;
-    printf("%p", p);
-    
-   
+    for(int i = 0;i < argc;i++)
+    {
+        printf("%d\n", argc);
+    }
 }
