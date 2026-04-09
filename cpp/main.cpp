@@ -2,5 +2,5 @@
 
 int main(){
   int x;
-  std::cout <<x;
+  std::cout << sizeof(int) <<'\n';
 }
